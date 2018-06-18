@@ -1,0 +1,583 @@
+body
+{
+    direction:rtl;
+    background-image: url("../images/asphalt-autumn-beauty-237018.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+span {
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+#container {
+    width: 960px;
+    padding:auto;
+    margin:auto;
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.5);
+
+}
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+#logo {
+    float: right;
+    width:320px;
+}
+.header #ar {
+    float: right;
+    color: black;
+    background-color: #a5bf5c;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    width: 130px;
+    font-weight: bold;
+    transition: transform .2s
+}
+#ar-active {
+    float: right;
+    color: black;
+    background-color: #72b4ea;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    width: 130px;
+    font-weight: bold;
+}
+#ar:hover {
+    background-color: #a1bdd4;
+    transform: scale(0.95);
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+.nav {
+    margin-top: 20px;
+}
+
+#main {
+    height: 480px;
+    width: 960px;
+    background-color:rgba(255, 255, 255, 0.8);
+    position: relative;
+}
+#ma2 h1 {
+    font-size: 27pt;
+}
+#p2{
+    font-size: 16pt;
+
+}
+#ma222 {
+    font-size: 46pt;
+    margin: 20px;
+    top:0;
+}
+
+.ma2222 {
+    font-size: 32pt;
+    width: 320px;
+    height: 480px;
+}
+#ma22 {
+    margin-top: 10px;
+    font-size: 26pt;
+    height: 300px;
+}
+#main-html2 {
+    height: 480px;
+    width: 960px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.h1-html2 {
+    font-size: 18pt;
+    padding: 5px;
+}
+.h2-html2 {
+    font-size: 22pt;
+    padding: 5px;
+}
+#ma1 {
+    background-image: url("../images/ma1.png");
+    height: 480px;
+}
+#ma1:hover {
+    background-image: url("../images/ma1hover.png");
+
+}
+#ma2 {
+    background-image: url("../images/ma2.png");
+    height: 480px;
+}
+#ma2:hover {
+    background-image: url("../images/ma2hover.png");
+
+}
+#ma3 {
+    background-image: url("../images/ma3.png");
+    height: 480px;
+    text-decoration: none;
+    color: black;
+}
+#ma3:hover {
+    background-image: url("../images/ma3hover.png");
+
+}
+
+
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    table-layout: auto;
+}
+
+.fixed {
+    table-layout: fixed;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    font-size: 12pt
+
+}
+
+th,
+td {
+    padding: 15px;
+
+        text-align: center;
+}
+.koteret {
+    font-size: 18pt;
+}
+.Row
+{
+    display: table;
+    width: 960px;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin-top: 20px;
+}
+#rowid {
+    font-size: 22pt;
+    background-color:rgba(255, 255, 255, 0.8);
+    color: black;
+}
+a {
+    text-decoration: none;
+    transition: background-color;
+}
+#rowid:hover {
+    background-color: #52a5ff;
+}
+#rowimg {
+    width: 180px;
+    transition: transform .2s
+}
+#rowimg:hover {
+    transform: scale(0.93);
+}
+.Column
+{
+    width: 280px;
+    height: 240px;
+    display: table-cell;
+    background-color:rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.Rowindex
+{
+    display: table;
+    width: 960px;
+    table-layout: fixed;
+}
+.Rowindex a {
+    text-decoration: none;
+    color: black;
+}
+.Columnindex
+{
+    width: 320px;
+    height: 480px;
+    display: table-cell;
+    text-decoration: none;
+}
+
+
+#info {
+    display: block;
+    text-decoration: none;
+    color: #1d73c1;
+    font-weight: bolder;
+    font-size: 18pt;
+    transition: background-color;
+}
+#info:hover {
+    color: #52a5ff;
+}
+
+#korkinetheader {
+     background-image: url("../images/korkinet.png");
+     width: 960px;
+     height: 360px;
+
+ }
+#korkinetheader h1 {
+    font-size: 28pt;
+}
+#ofanaimheader {
+    background-image: url("../images/ofanaim.png");
+    width: 960px;
+    height: 360px;
+
+}
+#ofanaimheader h1 {
+    font-size: 28pt;
+}
+#meidaheader {
+    background-image: url("../images/meidamikzoi.png");
+    width: 960px;
+    height: 180px;
+    font-size: 16px;
+
+}
+#meidaheader h1 {
+    font-size: 24pt;
+    padding: 20px;
+}
+#meida2 {
+    text-align: right;
+    margin-top: 55px;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#odescription {
+
+    font-size: 16pt;
+    width: 400px;
+    margin: 10px auto;
+
+}
+#main-html3 {
+     height: auto;
+     width: 960px;
+     background-color:rgba(255, 255, 255, 0.8);
+ }
+#main-html4 {
+    height: auto;
+    width: 960px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+#main-html2 {
+    height: auto;
+    width: 960px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.accordion {
+    margin:0 auto;
+    font-size:18px;
+    width:900px;
+    padding:10px;
+    background:#fff;
+    text-align: right;
+}
+.accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.accordion li {
+    margin:0;
+    padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+    display:block;
+    font-size:22px;
+    line-height:16px;
+    background:#a5bf5c;
+    color:#542437;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+    text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    background:#72b4ea;
+    color:#FFF;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+}
+.accordion .content {
+    padding:0 10px;
+    overflow:hidden;
+    border:1px solid #fff; /* Make the border match the background so it fades in nicely */
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.accordion p {
+    color:#333;
+    margin:0 0 10px;
+}
+.accordion h3 {
+    color:black;
+    font-size: 16pt;
+    padding:0;
+    margin:26px 0;
+    font-weight: bolder;
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+    border:1px solid #72b4ea;
+
+}
+.vertical ul li .content {
+    height:0;
+    border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:auto;
+
+}
+#description {
+    font-size: 16pt;
+    width: 400px;
+    margin: 10px auto;
+
+}
+
+#ihave {
+    width: 900px;
+    height: 30px;
+    background-color: #dddddd;
+    font-size: 18pt;
+    vertical-align: middle;
+    padding-top: 10px;
+    transition: transform .2s
+}
+#ihave a {
+    text-decoration: none;
+    color: #005aa4;
+    transition: transform .2s;
+}
+
+#ihave:hover {
+    background-color: #72b4ea;
+}
+#ihave a:hover {
+    background-color: #72b4ea;
+   color: white;
+    transform: scale(0.93);
+}#ihave a:visited {
+    background-color: #72b4ea;
+    color: #005aa4
+}
+ #choosescooter{
+     font-size: 22pt;
+     color: #005aa4;
+ }
+ #scootericon{
+     width: 280px;
+     transition: transform .2s;
+ }
+ #scootericon:hover {
+     transform: scale(0.90);
+ }
+#bykeicon{
+    width: 320px;
+    transition: transform .2s;
+}
+#bykeicon:hover {
+    transform: scale(0.90);
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #72b3e9;
+}
+.overlayk {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e3aa7f;
+}
+.overlaykk {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e3aa7f;
+}
+
+
+.container:hover .overlay {
+    opacity: 1;
+}
+.container:hover .overlayk {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 36pt;
+}
+#main-html4 article {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: right;
+    width: 80%;
+    font-size: 14pt;
+}
+#main-html4 h1 {
+    font-size: 32pt;
+    text-align: center;
+    margin: 5px;
+}
+#main-html4 h2 {
+    margin: 5px;
+    font-size: 18pt;
+    text-align: center;
+}
+#contect {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: auto;
+
+}
+#contect h1 {
+    font-size: 22px;
+    padding: 10px;
+}
+#form {
+    padding: 10px;
+    width: 80%;
+    text-align: right;
+    margin: 0 auto;
+}
+#form label {
+    display: block;
+    padding: 10px;
+}
+#sitemap {
+    padding: 15px;
+    color: black;
+}
+#sitemap a {
+    display: inline;
+    color: rgba(19, 19, 19, 0.69);
+}
+#sitemap a:hover {
+    color: rgba(19, 19, 19, 0.69);
+    color: #a1a1a1;
+}
+#sitemap2 {
+    padding: 15px;
+    text-align: right;
+}
+#sitemap2 ul {
+    margin-right: 30px;
+}
+#sitemap2 a {
+    display: block;
+}
+#sitemap2 a:hover {
+    color: rgba(19, 19, 19, 0.69);
+}
+#sitemap2 h1 {
+    font-size: 24pt;
+}
+#sitemap2 h2 {
+    padding: 10px;
+    text-align: right;
+}
+#footer {
+    margin-top:30px;
+    height: 120px;
+    width: 960px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
